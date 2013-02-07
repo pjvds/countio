@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+    <script src="js/controllers.js"></script>
+  </head>
+  <body ng-controller="TrackCtrl">
+    <section ng-repeat="track in tracks">
+      <h1>
+        {{track.name}} : {{track.count}}
+      </h1>
+      <ul>
+        <li ng-repeat="count in track.counts">
+          {{count.date}}
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
