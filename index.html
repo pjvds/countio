@@ -24,8 +24,12 @@
 
     <div class="jumbotron">
       <h1>{{ active.name }}</h1>
-      <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <a class="btn btn-large btn-success" href="#">Sign up today</a>
+      <p class="lead">{{ active.count }}</p>
+      <div class="btn-group">
+        <a class="btn btn-large btn-danger" href="#" ng-click="count(-1)">-</a>
+        <a class="btn btn-large btn-success" href="#" ng-click="count(1)">+</a>
+      </div>
+
     </div>
 
     <hr>
