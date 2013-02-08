@@ -6,6 +6,7 @@
   <link href="css/countio.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/flip.css" rel="stylesheet">
 </head>
 <body ng-controller="TrackCtrl">
 
@@ -24,12 +25,18 @@
 
     <div class="jumbotron">
       <h1>{{ active.name }}</h1>
-      <p class="lead">{{ active.count }}</p>
-      <div class="btn-group">
-        <a class="btn btn-large btn-danger" href="#" ng-click="count(-1)">-</a>
-        <a class="btn btn-large btn-success" href="#" ng-click="count(1)">+</a>
+      
+      <div class="number-counter" ng-repeat="char in flipCharacters(active.count)">
+            <div class="inner knob knob-left"></div>
+            <div class="inner divider"></div>
+            <div class="inner number">{{char}}</div>
+            <div class="inner knob knob-right"></div>
       </div>
-
+      
+      <div class="btn-group btn-group-vertical">
+        <a class="btn btn-large btn-success" href="#" ng-click="count(1)">+</a>
+        <a class="btn btn-large btn-danger" href="#" ng-click="count(-1)">-</a>
+      </div>
     </div>
 
     <hr>
