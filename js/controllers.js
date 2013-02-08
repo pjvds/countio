@@ -3,7 +3,8 @@ function TrackCtrl($scope) {
         'name' : 'beer',
         'currentPeriod' : {
             'name' : 'todays',
-            'count' : 5
+            'count' : 5,
+            'max' : 8,
         }};
 	
 	$scope.count = function(inc) {
