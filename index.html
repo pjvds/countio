@@ -27,9 +27,9 @@
                 <h3 class="muted">Project name</h3>
                 <hr>
                 <div class="jumbotron">
-                    <h1>{{ track.name }}</h1>
+                    <h1>{{ track.currentPeriod.name }} {{track.name}}</h1>
                     <div class="spin">
-                        <div class="number-counter" ng-repeat="char in flipCharacters(track.count)">
+                        <div class="number-counter" ng-repeat="char in flipCharacters(track)">
                             <div class="inner knob knob-left"></div>
                             <div class="inner divider"></div>
                             <div class="inner number">{{char}}</div>
