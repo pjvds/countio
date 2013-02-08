@@ -1,12 +1,13 @@
-.flip {
-    background-image: -webkit-radial-gradient(circle, #c6dbc8, #85A687);
+.spin {
+    /* background-image: -webkit-radial-gradient(circle, #c6dbc8, #85A687); */
+    display:inline-block;
 }
 
 .number-counter {
-    margin: 20px;
+    margin: 15px;
     height: 180px;
     width: 132px;
-    position: relative;
+    position:relative;
     float: left;
 }
 .inner {
