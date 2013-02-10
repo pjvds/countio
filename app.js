@@ -5,6 +5,10 @@ var application_root = __dirname,
 
 var app = express();
 
+// Configuration
+var port = process.env.PORT || 3000;
+var host = process.env.IP || 'localhost';
+
 // Database
 mongoose.connect('mongodb://countio:CountioDatabasePassword@linus.mongohq.com:10025/countio');
 
@@ -22,4 +26,5 @@ app.get('/status', function (req, res) {
 });
 
 // Launch server
-app.listen(process.env.PORT, process.env.IP);
+app.listen(port, host);
+console.log('Server running at http://'+host+':' + port);
