@@ -4,3 +4,18 @@
 {"ts":1360485299803,"patch":[[{"diffs":[[0,"b://"],[-1,"localhost/ecomm_database"],[1,"<user>:<password>@linus.mongohq.com:10025/countio"],[0,"');\n"]],"start1":204,"start2":204,"length1":32,"length2":57}]],"length":655,"saved":false}
 {"ts":1360485365984,"patch":[[{"diffs":[[0,"b://"],[-1,"<user>:<password>"],[1,"alien:123"],[0,"@lin"]],"start1":204,"start2":204,"length1":25,"length2":17}]],"length":647,"saved":false}
 {"ts":1360485373132,"patch":[[{"diffs":[[0,"nd('"],[-1,"E"],[0,"co"],[-1,"mm"],[1,"unt.io"],[0," API"]],"start1":579,"start2":579,"length1":13,"length2":16}]],"length":650,"saved":false}
+{"ts":1360489393758,"patch":[[{"diffs":[[0,"t('/"],[-1,"api"],[1,"status"],[0,"', f"]],"start1":539,"start2":539,"length1":11,"length2":14},{"diffs":[[0," res) {\n"],[1,"  var \n"],[0,"  res.se"]],"start1":566,"start2":566,"length1":16,"length2":23},{"diffs":[[0," running"],[1,"\\n"],[0,"');\n});\n"]],"start1":608,"start2":608,"length1":16,"length2":18}]],"length":662,"saved":false}
+{"ts":1360489394295,"patch":[[{"diffs":[[0,"{\n  var "],[1,"sta"],[0,"\n  res.s"]],"start1":572,"start2":572,"length1":16,"length2":19}]],"length":665,"saved":false}
+{"ts":1360489524235,"patch":[[{"diffs":[[0,") {\n"],[-1,"  var sta\n"],[0,"  re"]],"start1":570,"start2":570,"length1":18,"length2":8}]],"length":655,"saved":false}
+{"ts":1360489725292,"patch":[[{"diffs":[[0,"ten("],[-1,"4242"],[1,"process.env.PORT"],[0,");"]],"start1":645,"start2":645,"length1":10,"length2":22}]],"length":667,"saved":false}
+{"ts":1360489804031,"patch":[[{"diffs":[[0,"ress"],[-1,".createServer"],[0,"();\n"]],"start1":146,"start2":146,"length1":21,"length2":8}]],"length":654,"saved":false}
+{"ts":1360489951504,"patch":[[{"diffs":[[0,"env.PORT"],[1,", process.env.HOST"],[0,");"]],"start1":644,"start2":644,"length1":10,"length2":28}]],"length":672,"saved":false}
+{"ts":1360489980620,"patch":[[{"diffs":[[0,"env."],[-1,"HOST"],[1,"IP"],[0,");"]],"start1":662,"start2":662,"length1":10,"length2":8}]],"length":670,"saved":false}
+{"ts":1360490016477,"patch":[[{"diffs":[[0,"b://"],[-1,"alien:123"],[1,"<user>:<password>"],[0,"@lin"]],"start1":191,"start2":191,"length1":17,"length2":25}]],"length":678,"saved":false}
+{"ts":1360490023937,"patch":[[{"diffs":[[0,"b://"],[-1,"<user>:<password>"],[1,"alien:123"],[0,"@lin"]],"start1":191,"start2":191,"length1":25,"length2":17}]],"length":670,"saved":false}
+{"ts":1360490073628,"patch":[[{"diffs":[[0," Config\n"],[-1,"\n"],[0,"app.conf"]],"start1":243,"start2":243,"length1":17,"length2":16}]],"length":669,"saved":false}
+{"ts":1360490080578,"patch":[[{"diffs":[[0," server\n"],[-1,"\n"],[0,"app.list"]],"start1":615,"start2":615,"length1":17,"length2":16}]],"length":668,"saved":false}
+{"ts":1360490088045,"patch":[[{"diffs":[[0,"PORT"],[-1,", process.env.IP"],[0,");"]],"start1":646,"start2":646,"length1":22,"length2":6}]],"length":652,"saved":false}
+{"ts":1360490141600,"patch":[[{"diffs":[[0,"ning"],[-1,"\\n"],[0,"');\n"]],"start1":591,"start2":591,"length1":10,"length2":8}]],"length":650,"saved":false}
+{"ts":1360490186813,"patch":[[{"diffs":[[0,"env.PORT"],[1,", process.env.IP"],[0,");"]],"start1":640,"start2":640,"length1":10,"length2":26}]],"length":666,"saved":false}
+{"ts":1360490424902,"patch":[[{"diffs":[[0,"b://"],[-1,"alien:123"],[1,"countio:CountioDatabasePassword"],[0,"@lin"]],"start1":191,"start2":191,"length1":17,"length2":39}]],"length":688,"saved":false}

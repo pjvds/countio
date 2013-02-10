@@ -3,13 +3,12 @@ var application_root = __dirname,
     path = require("path"),
     mongoose = require('mongoose');
 
-var app = express.createServer();
+var app = express();
 
 // Database
-mongoose.connect('mongodb://alien:123@linus.mongohq.com:10025/countio');
+mongoose.connect('mongodb://countio:CountioDatabasePassword@linus.mongohq.com:10025/countio');
 
 // Config
-
 app.configure(function () {
   app.use(express.bodyParser());
   app.use(express.methodOverride());
@@ -18,10 +17,9 @@ app.configure(function () {
   app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 });
 
-app.get('/api', function (req, res) {
+app.get('/status', function (req, res) {
   res.send('count.io API is running');
 });
 
 // Launch server
-
-app.listen(4242);
+app.listen(process.env.PORT, process.env.IP);
