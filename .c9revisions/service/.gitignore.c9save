@@ -1,4 +1,0 @@
-{"ts":1360485474246,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1360485627465,"patch":[[{"diffs":[[1,"# nodejs\nlib-cov\n*.seed\n*.log\n*.csv\n*.dat\n*.out\n*.pid\n*.gz\npids\nlogs\nresults\nnpm-debug.log\n\n# cloud9\n.c9revisions/\n*.c9save"]],"start1":0,"start2":0,"length1":0,"length2":123}]],"length":123,"saved":false}
-{"ts":1360485657369,"patch":[[{"diffs":[[0,"ejs\n"],[-1,"lib-cov\n*.seed\n*.log\n*.csv\n*.dat\n*.out\n*.pid\n*.gz\npids\nlogs\nresults\nnpm-debug.log"],[1,"node_modules"],[0,"\n\n# "]],"start1":5,"start2":5,"length1":89,"length2":20}]],"length":54,"saved":false}
-{"ts":1360485674729,"patch":[[{"diffs":[[0,"_modules"],[1,"/"],[0,"\n\n# clou"]],"start1":13,"start2":13,"length1":16,"length2":17}]],"length":55,"saved":false}
