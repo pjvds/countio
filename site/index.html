@@ -1,0 +1,82 @@
+<!doctype html>
+<html ng-app>
+    
+    <head>
+        <script src="js/date.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+        <script src="js/controllers.js"></script>
+        <link href="css/countio.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="css/flip.css" rel="stylesheet">
+    </head>
+    
+    <body ng-controller="TrackCtrl">
+        <div class="container-narrow">
+            <div class="masthead">
+                <ul class="nav nav-pills pull-right">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <h3 class="muted">Project name</h3>
+                <hr>
+                <div class="jumbotron">
+                    <h1>{{ track.currentPeriod.name }} {{track.name}}</h1>
+                    <p>Ends at {{ track.currentPeriod.endsAt }}</p>
+                    <div class="spin">
+                        <div class="number-counter" ng-repeat="char in flipCharacters(track)">
+                            <div class="inner knob knob-left"></div>
+                            <div class="inner divider"></div>
+                            <div class="inner number">{{char}}</div>
+                            <div class="inner knob knob-right"></div>
+                        </div>
+                        <div id="track-controls" class="btn-group btn-group-vertical">
+                            <a class="btn btn-large btn-success" href="#" ng-click="count(1)">+</a>
+                            <a class="btn btn-large btn-danger" href="#" ng-click="count(-1)">-</a>
+                        </div>
+                        <div class="clear-fix"></div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" style="width: {{ (100.0 / track.currentPeriod.max) * track.currentPeriod.count }}%"></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row-fluid marketing">
+                <div class="span6">
+                    <h4>Subheading</h4>
+                    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis
+                        interdum.</p>
+                    <h4>Subheading</h4>
+                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis
+                        consectetur purus sit amet fermentum.</p>
+                    <h4>Subheading</h4>
+                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                </div>
+                <div class="span6">
+                    <h4>Subheading</h4>
+                    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis
+                        interdum.</p>
+                    <h4>Subheading</h4>
+                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis
+                        consectetur purus sit amet fermentum.</p>
+                    <h4>Subheading</h4>
+                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="footer">
+                <p>&copy; Company 2012</p>
+            </div>
+        </div>
+        <!-- /container -->
+    </body>
+
+</html>

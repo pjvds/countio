@@ -1,0 +1,7 @@
+{"ts":1360484989486,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1360485015184,"patch":[[{"diffs":[[1,"{\n  \"name\": \"countio\",\n  \"description\": \"Service application of count.io\",\n  \"version\": \"0.0.1\",\n  \"private\": true,\n  \"dependencies\": {\n    \"express\": \"3.x\",\n  }\n}"]],"start1":0,"start2":0,"length1":0,"length2":163}]],"length":163,"saved":false}
+{"ts":1360485109038,"patch":[[{"diffs":[[0," \"3.x\",\n"],[1,"    \"mongoose\": \"x\",\n"],[0,"  }\n}"]],"start1":150,"start2":150,"length1":13,"length2":34}]],"length":184,"saved":false}
+{"ts":1360485177411,"patch":[[{"diffs":[[0,"oose\": \""],[-1,"x"],[1,">= 1.0.0"],[0,"\",\n  }\n}"]],"start1":167,"start2":167,"length1":17,"length2":24}]],"length":191,"saved":false}
+{"ts":1360485213177,"patch":[[{"diffs":[[0,"= 1.0.0\""],[-1,","],[0,"\n  }\n}"]],"start1":176,"start2":176,"length1":15,"length2":14}]],"length":190,"saved":false}
+{"ts":1360485235672,"patch":[[{"diffs":[[0,"\": \""],[-1,">= 1.0.0"],[1,"3.5.x"],[0,"\"\n  "]],"start1":171,"start2":171,"length1":16,"length2":13}]],"length":187,"saved":false}
+{"ts":1360485240354,"patch":[[{"diffs":[[0," \"3."],[-1,"5."],[0,"x\"\n "]],"start1":173,"start2":173,"length1":10,"length2":8}]],"length":185,"saved":false}

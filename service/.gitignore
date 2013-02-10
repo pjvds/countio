@@ -1,0 +1,6 @@
+# nodejs
+node_modules/
+
+# cloud9
+.c9revisions/
+*.c9save
