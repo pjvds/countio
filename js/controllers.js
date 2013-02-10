@@ -3,14 +3,16 @@ function TrackCtrl($scope) {
         'name' : 'beer',
         'currentPeriod' : {
             'name' : 'todays',
+            'type' : 'day',
             'count' : 5,
             'max' : 8,
+            'endsAt' : Date.now(),
         }};
 	
 	$scope.count = function(inc) {
 		var track = $scope.track;
 		track.currentPeriod.count += inc;
-	}
+	};
     
     $scope.flipCharacters = function(track) {
         var chars = [];

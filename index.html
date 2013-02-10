@@ -2,7 +2,8 @@
 <html ng-app>
     
     <head>
-        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+        <script src="js/date.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
         <script src="js/controllers.js"></script>
         <link href="css/countio.css" rel="stylesheet">
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -28,6 +29,7 @@
                 <hr>
                 <div class="jumbotron">
                     <h1>{{ track.currentPeriod.name }} {{track.name}}</h1>
+                    <p>Ends at {{ track.currentPeriod.endsAt }}</p>
                     <div class="spin">
                         <div class="number-counter" ng-repeat="char in flipCharacters(track)">
                             <div class="inner knob knob-left"></div>

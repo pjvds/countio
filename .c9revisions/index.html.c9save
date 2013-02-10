@@ -63,3 +63,5 @@
 {"ts":1360341564087,"patch":[[{"diffs":[[0,"fix\"></div>\n    "],[1,"                </div>\n"],[0,"                "]],"start1":1922,"start2":1922,"length1":32,"length2":55},{"diffs":[[0,"iv>\n"],[-1,"                    </div>\n"],[0,"    "]],"start1":2165,"start2":2165,"length1":35,"length2":8}]],"length":3606,"saved":false}
 {"ts":1360341565644,"patch":[[{"diffs":[[0,"                "],[-1,"    "],[0,"</div>\n         "]],"start1":2142,"start2":2142,"length1":36,"length2":32}]],"length":3602,"saved":false}
 {"ts":1360341568251,"patch":[[{"diffs":[[0,"                "],[-1,"  "],[0,"<div class=\"bar\""]],"start1":2012,"start2":2012,"length1":34,"length2":32}]],"length":3600,"saved":false}
+{"ts":1360401784629,"patch":[[{"diffs":[[0,"rc=\"http"],[1,"s"],[0,"://ajax."]],"start1":63,"start2":63,"length1":16,"length2":17}]],"length":3601,"saved":false}
+{"ts":1360482381016,"patch":[[{"diffs":[[0,"}}</h1>\n"],[1,"                    <p>Ends at {{ track.currentPeriod.endsAt }}</p>\n"],[0,"        "]],"start1":1163,"start2":1163,"length1":16,"length2":84}]],"length":3712,"saved":false}
